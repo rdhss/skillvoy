@@ -36,7 +36,7 @@ const NavbarFixed = () => {
 
 
     return (
-        <header className={`bg-[#ffffff] fixed top-0 z-[100] ${visible ? "translate-y-[0px]" : "translate-y-[-100px]"} hidden md:block transition-transform duration-300`}>
+        <header className={`bg-[#ffffff] fixed w-full top-0 z-[100] ${visible ? "translate-y-[0px]" : "translate-y-[-100px]"} hidden md:block transition-transform duration-300`}>
             <Container>
                 <div className="max-w-7xl py-4 grid grid-cols-3 items-center">
                     {/* Logo kiri */}
