@@ -276,14 +276,14 @@ function Categories() {
 
                 {/* mobile grid */}
                 <motion.div
-                    ref={inView4}
+                    ref={view4}
                     initial={{ opacity: 0, y: 60 }}
                     animate={inView4 ? { opacity: 1, y: 0 } : {}}
                     transition={{
                         duration: 0.6,
                         ease: "easeOut",
                         delay: 0.1
-                    }} className="relative overflow-hidden md:hidden"
+                    }} className="relative overflow-hidden block md:hidden"
                 >
                     <div className="flex items-center justify-center mt-5">
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-1">
